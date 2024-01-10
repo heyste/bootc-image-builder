@@ -50,7 +50,7 @@ var partitionTables = distro.BasePartitionTableMap{
 				},
 			},
 			{
-				Size: 2 * GibiByte,
+				Size: 25 * GibiByte,
 				Type: disk.FilesystemDataGUID,
 				UUID: disk.RootPartitionUUID,
 				Payload: &disk.Filesystem{
